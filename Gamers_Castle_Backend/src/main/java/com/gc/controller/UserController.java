@@ -1,5 +1,5 @@
 package com.gc.controller;
 
-public class AdminController {
+public class UserController {
 
 }
