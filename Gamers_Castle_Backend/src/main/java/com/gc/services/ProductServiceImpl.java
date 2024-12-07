@@ -34,10 +34,10 @@ public class ProductServiceImpl implements ProductService{
 		
 		if(productRepository.existsById(id))
 		{
-			
+			productRepository.deleteById(id);
+			return new ApiResponse("Deleted product succefully...");
 		}
-		productRepository.delete(null);
-		return null;
+		return new ApiResponse("Not able to delete the product");
 	}
 	 
 }
