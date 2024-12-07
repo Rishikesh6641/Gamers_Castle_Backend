@@ -1,5 +1,5 @@
 package com.gc.entity;
 
 public enum Role {
-ADMIN,USER
+ROLE_ADMIN,ROLE_USER
 }
