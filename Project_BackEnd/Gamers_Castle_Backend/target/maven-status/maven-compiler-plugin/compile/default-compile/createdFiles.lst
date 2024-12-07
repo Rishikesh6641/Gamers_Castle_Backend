@@ -1,8 +1,0 @@
-com\gc\GamersCastleBackendApplication.class
-com\gc\entity\Order.class
-com\gc\entity\Address.class
-com\gc\entity\BaseEntity.class
-com\gc\entity\User.class
-com\gc\entity\Status.class
-com\gc\entity\Role.class
-com\gc\entity\Product.class
