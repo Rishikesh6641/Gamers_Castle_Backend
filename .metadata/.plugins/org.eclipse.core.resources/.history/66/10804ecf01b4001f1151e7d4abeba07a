@@ -1,0 +1,6 @@
+package com.gc.entity;
+
+public class Order extends BaseEntity{
+	
+	private User cust_id;
+}
