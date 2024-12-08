@@ -33,6 +33,10 @@ public class JwtUtils {
 	
 	@PostConstruct
 	public void init() {
+		byte[] keyBytes = jwtSecret.getBytes();
+	    if (keyBytes.length < 64) {
+	        throw new IllegalArgumentException("SECRET_KEY must be at least 64 bytes long for HS512");
+	    }
 		key =Keys.hmacShaKeyFor(jwtSecret.getBytes());
 	}
 	

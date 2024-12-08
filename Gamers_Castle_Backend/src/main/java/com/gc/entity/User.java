@@ -41,7 +41,7 @@ public class User extends BaseEntity {
 	private List<Order> orders =new ArrayList<>();
 	@Column(unique = true,length = 100)
 	private String email;
-	@Column(length = 20, nullable = false)
+	@Column(length = 500, nullable = false)
 	private String password;
 	private LocalDate dob;
 }
